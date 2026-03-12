@@ -1,0 +1,45 @@
+[
+    {
+        "id": "motion_text",
+        "type": "ui_text",
+        "z": "7c308a0bb3f87d4e",
+        "group": "default_group",
+        "order": 1,
+        "width": "",
+        "height": "",
+        "name": "",
+        "label": "Motion Status",
+        "format": "",
+        "layout": "",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 880,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "default_group",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "dashboard",
+        "order": 2,
+        "width": "6"
+    },
+    {
+        "id": "dashboard",
+        "type": "ui_tab",
+        "name": "Sensors",
+        "icon": "dashboard"
+    },
+    {
+        "id": "2e6c45755452aeae",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
